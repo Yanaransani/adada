@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 20px;
+  background-color: #010101;
+  justify-content: flex-start;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li {
+  margin: 0 20px;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff7b54;
+}
+
+.logo {
+  margin-right: 100px;
+  padding-left: 10%;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.get-quotes-btn {
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #dc143c, #ff7b54);
+  border-radius: 25px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.get-quotes-btn:hover {
+  background-color: #ff4a29;
+}

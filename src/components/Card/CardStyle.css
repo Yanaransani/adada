@@ -1,0 +1,25 @@
+/* .info-card {
+  background: linear-gradient(to right, #fefdfd, #ff7b54, #ff9a5b);
+  color: #f6f4f4;
+  border-radius: 10px;
+  border: 1px solid #e49982;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 40px;
+  }
+    
+    .info-card {
+      flex: 1 1 300px; 
+      max-width: 300px; 
+      height: 200px; 
+    }
+  
+
+ */

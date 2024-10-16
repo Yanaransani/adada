@@ -1,0 +1,66 @@
+.contact-us {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #030303;
+  background-image: linear-gradient(
+      rgba(176, 119, 119, 0.2) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to right, rgba(138, 76, 76, 0.2) 1px, transparent 1px);
+  /* background-image: linear-gradient(rgba(229, 105, 105, 0.2) 1px, transparent 1px),
+                      linear-gradient(to right, rgba(229, 105, 105, 0.2) 1px, transparent 1px);  */
+  background-size: 50px 50px;
+  color: white;
+  /* position: relative;  */
+  z-index: 1;
+}
+
+.contact-us h7 {
+  color: #dc143c;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.contact-us h1 {
+  color: #f0f8ff;
+  margin: 20px 0;
+}
+
+.contact-us p {
+  color: #b0b0b0;
+  /* max-width: 800px; */
+  margin: 0 auto;
+}
+
+.info-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+/* .info-card {
+  flex: 1 1 300px;
+  max-width: 300px;
+  height: 200px;
+} */
+
+.info-item {
+  margin: 0 20px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ff7b54;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+}
+
+.info-item svg {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #ff7b54;
+}
+
+.info-item:hover {
+  background-color: #a97b6d;
+  color: white;
+}
